@@ -5,9 +5,9 @@ import os
 from types import SimpleNamespace
 
 API_ID = int(os.getenv("TG_API_ID", "38904811"))
-API_HASH = os.getenv("TG_API_HASH", "a0be67ff4bae5e1766d64d2da45ff7e1").strip()
+API_HASH = os.getenv("TG_API_HASH", "").strip()
 SESSION_NAME = "sessions/userbot"
-BOT_TOKEN = "8976406641:AAF5zTZAvHJV117zf3K9-pMMFmkupsn5vJA"
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 ADMIN_IDS = [5949150362]
 SEND_DELAY_MIN_SECONDS = 2.0
 SEND_DELAY_MAX_SECONDS = 4.5
