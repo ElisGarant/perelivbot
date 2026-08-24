@@ -1,0 +1,5 @@
+telethon>=1.36.0
+aiogram>=3.7.0
+aiosqlite>=0.20.0
+pytz>=2024.1
+cryptg
